@@ -13,5 +13,5 @@ jobs:
           python-version: "3.12"
       - name: Run bot
         env:
-          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          BOT_TOKEN: "8859824190:AAGI4z0-JTuIIjd4Go9gOupghcHH4UNNxpU"
         run: python -u bot.py
